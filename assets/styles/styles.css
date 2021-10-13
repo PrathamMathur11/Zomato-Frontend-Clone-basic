@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Metropolis;
+    border: none;
+    text-decoration: none;
+    text-align: -webkit-center;
+}
+
+*:focus {
+    outline: none;
+    border: none;
+}
+
+/* Header styling / Navbar & search menu styling */
+header{
+    background: url(../images/hero.png);
+    background-size: cover;
+    background-position:center;
+    height: 60vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 49.2px;
+    padding: 18px;
+}
+
+nav div{
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    padding: 0.8rem !important;
+}
+
+a { color: inherit; } 
+
+option{
+    color: rgb(105, 105, 105);
+}
+
+.content h1 {
+    color: white;
+    margin-top: 39px;
+    font-size: 2.54rem;
+}
+
+.hovertext{
+    color: white;
+    padding: 5px;
+}
+
+.hovertext:hover{
+    color: rgb(105, 105, 105);
+}
+
+header img.logo{
+    width: 300px;
+margin-top: -35px;
+}
+
+header div.search-box{
+    width: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 35px;
+}
+
+div.search-box div.seperator {
+    height: 30px;
+    width: 1px;
+    background-color: #8282829b;
+}
+
+div.search-box div {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 0px 5px;
+}
+
+div.content {
+    margin-top: 53px;
+    width: 1220px;
+}
+
+.fa-map-marker-alt{
+    color: crimson;
+}
+
+.fa-search{
+    color: rgb(105, 105, 105);
+}
+
+div.search-box div.select{
+    color: rgb(105, 105, 105);
+}
+div.search-box i {
+    margin: 10px;
+}
+
+/* Section Styling */
+
+section.nearby{
+    margin-top: 30px;
+}
+section.nearby div.container h3{
+    font-weight: normal;
+    font-size: 2.23rem;
+}
+
+section.nearby div.box{
+    display: flex;
+    max-width: 25%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    padding: 25px 15px;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    margin-right: 1000px;
+}
+
+/* app section style */
+section.app {
+    margin: 100px 0px;
+    min-height: 300px;
+    background-color: #FEFBF6;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+
+}
+
+section.app div.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section.app div.container img{
+    max-width:300px;
+}
+
+section.app div.container div.form h1 {
+    font-size: 2.5rem;
+}
+
+section.app div.container div.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+input[type='email'] {
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid rgb(105, 105, 105);
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.05rem;
+}
+
+.emailid{
+    display: flex;
+    height: 40px;
+    width: 370px;
+    justify-content: left;
+}
+
+button{
+    background: #e45570;
+    color: white;
+    border-radius: 5px;
+}
+
+section.app div.container div.form .Zomato{
+    margin: 10px
+}
+
+div.download div img{
+    width: 13.7rem;
+    height: 4rem;
+}
+
+
+/* Section options */
+
+section.options {
+    min-height: 60vh;
+}
+
+section.options div.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+section.options div.container h2 {
+    font-size: 2rem;
+}
+
+section.options div.container h3 {
+    font-size: 1.6rem;
+}
+
+section.options div.container div {
+    margin-top: 40px;
+}
+
+section.options div.container div ul {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.options div.container div ul li {
+    margin: 3px 10px;
+    color: grey;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
